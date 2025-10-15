@@ -1,0 +1,23 @@
+﻿# Build
+bin/
+obj/
+out/
+
+# VS Code
+.vscode/
+
+# User-specific
+*.user
+*.suo
+
+# Logs
+*.log
+logs/
+
+# Temp
+*.tmp
+*.temp
+
+# Dotnet artifacts
+*.pidb
+.project
