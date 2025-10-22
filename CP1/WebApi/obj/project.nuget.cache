@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "dgSpecHash": "gjDVHyqAyLg=",
+  "success": false,
+  "projectFilePath": "C:\\Users\\Usuario\\OneDrive - Universidad Fidélitas\\Documentos\\Kimba\\U Fide\\Progra Web Avanzada\\FI22026954-web\\CP1\\WebApi\\WebApi.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1102",
+      "level": "Error",
+      "message": "No se encuentra el paquete Microsoft.NETCore.App con la versión (>= 8.0.0)\r\n  - Versiones encontradas en nuget.org: 94 [ versión más cercana: 3.0.0-preview8-28405-07 ]\r\n  - Versiones encontradas en Microsoft Visual Studio Offline Packages: 0\r\n  - Versiones encontradas en C:\\Program Files\\dotnet\\library-packs: 0",
+      "projectPath": "C:\\Users\\Usuario\\OneDrive - Universidad Fidélitas\\Documentos\\Kimba\\U Fide\\Progra Web Avanzada\\FI22026954-web\\CP1\\WebApi\\WebApi.csproj",
+      "filePath": "C:\\Users\\Usuario\\OneDrive - Universidad Fidélitas\\Documentos\\Kimba\\U Fide\\Progra Web Avanzada\\FI22026954-web\\CP1\\WebApi\\WebApi.csproj",
+      "libraryId": "Microsoft.NETCore.App",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
+}
