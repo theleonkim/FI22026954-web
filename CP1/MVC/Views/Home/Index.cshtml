@@ -1,0 +1,40 @@
+@* ChatGPT (GPT-5 Thinking) *@
+@model MVC.Models.TheModel
+@{
+    ViewData["Title"] = "Phrase Analyzer";
+}
+
+<h2>Phrase Analyzer</h2>
+
+<form asp-action="Index" method="post" novalidate>
+    <div>
+        <label for="Phrase">Phrase</label>
+        <input asp-for="Phrase" id="Phrase" />
+        <span class="text-danger" asp-validation-for="Phrase"></span>
+    </div>
+
+    <button type="submit">Analyze</button>
+</form>
+
+<hr />
+
+@if (Model?.Submitted == true)
+{
+    <h3>Counts:</h3>
+    <ul>
+        @foreach (var item in Model.Counts)
+        {
+            <li>'@item.ch': @item.count</li>
+        }
+    </ul>
+
+    <h3>Lower case:</h3>
+    <p>@Model.LowerNoSpaces</p>
+
+    <h3>Upper case:</h3>
+    <p>@Model.UpperNoSpaces</p>
+}
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
